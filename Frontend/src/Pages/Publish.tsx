@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Appbar } from "../components/Appbar";
 import { BACKEND_URL } from "../config";
-import { ChangeEvent, useState } from "react";
+import {  useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Editor } from "@tinymce/tinymce-react";
 
